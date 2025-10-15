@@ -1,8 +1,8 @@
 {
-  "name": "@mimicprotocol/examples",
+  "name": "@gnarvaja/mimic-hack-oct-2025",
   "private": true,
   "version": "1.0.0",
-  "description": "Mimic Protocol Examples",
+  "description": "Mimic Hackathon Oct 2025",
   "license": "GPL-3.0",
   "scripts": {
     "lint": "yarn workspaces run lint",
@@ -11,7 +11,7 @@
   },
   "workspaces": {
     "packages": [
-      "examples/**"
+      "tasks/**"
     ],
     "nohoist": [
       "**/mocha",
