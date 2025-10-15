@@ -7,7 +7,7 @@ inputs:
   - morphoAddress: address  # 0x6c247b1F6182318877311737BaC0844bAa518F5e
   - borrowMarket: bytes32
   - smartAccount: address
-  - threshold: uint256
-  - maxFee: uint256
+  - threshold: string  # In decimal
+  - maxFee: string  # In decimal
 abis:
   - ERC20: ./abis/ERC20.json
