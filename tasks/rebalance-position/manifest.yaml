@@ -1,0 +1,15 @@
+version: 1.0.0
+name: Rebalance morpho position
+description: Rebalance a morpho blue position by borrowing from a market and supplying to another, or withdrawing from one and repaying to another.
+inputs:
+  - chainId: uint32
+  - threshBorrowMin: uint256
+  - threshBorrowTarget: uint256
+  - threshBorrowMax: uint256
+  - morpho: address
+  - market: bytes32
+  - vault: address
+  - account: address
+abis:
+  - Morpho: ./abis/Morpho.json
+  - ERC4626: ./abis/ERC4626.json
