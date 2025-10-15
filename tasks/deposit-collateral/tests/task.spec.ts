@@ -36,6 +36,23 @@ describe("Task", () => {
         abiType: "uint8",
       },
     },
+    {
+      request: {
+        to: inputs.morphoAddress,
+        chainId: inputs.chainId,
+        data: "0x2c3c9157",
+      },
+      response: {
+        value: [
+          "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+          "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+          "0x282FEB10549fde52bD61A6979424Ddf18A4971A2",
+          "0x66F30587FB8D4206918deb78ecA7d5eBbafD06DA",
+          "860000000000000000",
+        ],
+        abiType: "(address,address,address,address,uint256)",
+      },
+    },
   ];
 
   const inputs = {

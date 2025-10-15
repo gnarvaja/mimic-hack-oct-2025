@@ -11,3 +11,4 @@ inputs:
   - maxFee: string  # In decimal
 abis:
   - ERC20: ./abis/ERC20.json
+  - MorphoBlue: ./abis/MorphoBlue.json
